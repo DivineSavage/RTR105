@@ -1,0 +1,163 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  pwd
+    4  whoami
+    5  pwd
+    6  ls
+    7  cd Desktop
+    8  cd
+    9  cd --help
+   10  ls -l -t
+   11  ping 8.8.8.8
+   12  echo $0
+   13  ba 
+   14  ba
+   15  clear
+   16  sh
+   17  
+   18  pwd
+   19  ls
+   20  ls --all
+   21  ls -a
+   22  clear
+   23  ls -a
+   24  ls
+   25  ls -la
+   26  cd .
+   27  cd ..
+   28  pwd
+   29  ls -la
+   30  cd
+   31  cd ..sd
+   32  cd ..
+   33  pwd
+   34  tree
+   35  ls -l
+   36  ls -la
+   37  pwd
+   38  ls -la
+   39  cd ..
+   40  pwd
+   41  cd ~
+   42  cd /home/user/
+   43  cd ..
+   44  cd
+   45  cd ~/Documents/
+   46  exit
+   47  c
+   48  mkdir ABC
+   49  ls -lt
+   50  ls -l ABC/
+   51  ls -la ABC/
+   52  rmdir ABC/
+   53  ls ABC/
+   54  ls
+   55  echo $/
+   56  echo $?
+   57  echo
+   58  echo 12345 > a.txt
+   59  ls -la
+   60  cd a.txt
+   61  af
+   62  cat a.txt
+   63  echo 123456 > a.txt
+   64  cat a.txt
+   65  ls -lt *.txt
+   66  cat a.txt 
+   67  hexdump -C a.txt
+   68  echo abcdef >> a.txt
+   69  cat a.txt
+   70  hexdump -C a.txt
+   71  clear
+   72  echo "wwwwwwwwwww"."asd"
+   73  echo -e
+   74  echo $?
+   75  echo -e "wlklewq\a"
+   76  touch c.txt
+   77  man touch
+   78  history
+   79  history > history_20230913_class_02.txt
+   80  ls -lt
+   81  man rm
+   82  man cd
+   83  man ls
+   84  man rm
+   85  rm -v !("history")
+   86  ls -la
+   87  ls -lt
+   88  cat history
+   89  tree
+   90  echo 12345 > a.txt
+   91  history
+   92  cp a.txt c.txt
+   93  cat c.txt
+   94  ls -lt
+   95  ls -lt 
+   96  mv
+   97  mv --help
+   98  man mv
+   99  cd ..
+  100  tree
+  101  clear
+  102  ping 8.8.8.8
+  103  cd
+  104  mkdir abc
+  105  pwd
+  106  ls
+  107  mv c.txt abc/
+  108  ls
+  109  ls abc
+  110  ls
+  111  ls abc/
+  112  mv abc/c.txt abc/ccc.txt
+  113  ls abc/
+  114  ls .lt
+  115  ls -lt
+  116  rmdir --ignore-fail-on-non-empty abc/
+  117  ls abc/
+  118  rmdir --ignore-fail-on-non-empty abc/
+  119  echo $0
+  120  echo $?
+  121  rmdir --ignore-fail-on-non-empty abc/
+  122  echo $?
+  123  ls abc/
+  124  ls -lt
+  125  rm -r abc/
+  126  ls abc/
+  127  whereis ls
+  128  echo $PATH
+  129  whereis ls
+  130  ls -lt /bin/ls
+  131  cat ttt.py
+  132  cat /bin/ls/
+  133  cat /bin/ls
+  134  nano mk_1.sh
+  135  ls -lt
+  136  mk_1
+  137  where is ls
+  138  whereis ls
+  139  chmod 754 mk_1.sh
+  140  ls - lt mk_1.sh 
+  141  PATH=$PATH:~
+  142  $PATH
+  143  mk_1.sh 
+  144  ls
+  145  ls -lt
+  146  history > history.txt
+  147  ls
+  148  whereami
+  149  wheream i
+  150  s
+  151  cd
+  152  cat history.txt
+  153  man grep
+  154  history > history_02.txt
+  155  dif history.txt history_02.txt > history_03.txt
+  156  diff history.txt history_02.txt > history_03.txt
+  157  cat history_03.txt 
+  158  nano kd.sh
+  159* 
+  160  $./kd.sh Reinis Raimonds
+  161  kd.sh Reinis Raimonds
+  162  history > history_02
+  163  history > history_02.txt
