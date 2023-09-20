@@ -1,0 +1,74 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  whereami
+    4  whoami
+    5  help
+    6  git --version
+    7  ls - lt
+    8  ls -lt
+    9  pwd
+   10  git clone https://github.com/DivineSavage/RTR105
+   11  ls -lt
+   12  ls -lt RTR105
+   13  ls -lt
+   14  git clone https://github.com/DivineSavage/RTR105 RTR_V12
+   15  ls - lt
+   16  ls -lt
+   17  rm -rf RTR_V12
+   18  ls -lt
+   19  echo ?$
+   20  cd RTR105/
+   21  -ls -lt
+   22  ls -lt
+   23  ls -lta
+   24  cd .git
+   25  ls -lt
+   26  cat config
+   27  cat index
+   28  cd ..
+   29  pwd
+   30  nano git-upload
+   31  y
+   32  nano git-upload
+   33  ls -lt
+   34  pwd
+   35  cat git-upload
+   36  chmod 754 git-upload 
+   37  cat git-upload
+   38  ls -lt
+   39  ./git-upload 
+   40  history > history_03.txt
+   41  ls -lt
+   42  ./git-upload 
+   43  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
+   44  ./git-commit
+   45  ./git-upload
+   46  cd ..
+   47  ls -lt
+   48  rm -rf RTR105
+   49  ls- lt
+   50  ls -lt
+   51  history
+   52  history | grep clone
+   53  git clone https://github.com/DivineSavage/RTR105
+   54  cd RTR105/
+   55  nano git-upload
+   56  nano test
+   57  ./test
+   58  nano test
+   59  ./test Shiii
+   60  sudo ./test shii
+   61  cd ..
+   62  chmod test.sh 357
+   63  chmod test 357
+   64  chmod 357 test
+   65  cd RTR105/
+   66  chmod 357 tesT
+   67  chmod 357 test
+   68  ls -lt
+   69  chmod 754 tesT
+   70  chmod 754 test
+   71  ./test 
+   72  ./test s
+   73  nano git-upload
+   74  history > history_05.txt
