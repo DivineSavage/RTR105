@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git add .
+git config --global user.name DivineSavage
+git config --global user.email r.smiltins101@gmail.com
+git commit -m "Cl4"
+git pull
+git push origin main
