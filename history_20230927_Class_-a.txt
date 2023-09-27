@@ -1,0 +1,66 @@
+VirtualBox --startvm XP
+quartus
+ls -lt
+nano text.py
+python3
+git clone https://github.com/DivineSavage/RTR105
+cd RTR105/
+ls -lt
+mkdri Class_05
+mkdir Class_05
+cd Class_05/
+pwd
+nano first.c
+cat first.c
+gcc --version
+gcc first.c
+ls -lt
+cat a.out\
+cat a.out
+ls -lt
+./a.out
+echo $?
+nano first.c
+gcc first.c -o first.out
+./first.out
+echo $?
+cat first.c
+ls -lt
+nano first.c
+diff a.out first.out
+nano first.c
+gcc first.c -o first2.out
+nano first.c
+gcc first.c -o first2.out
+nano first.c
+gcc first.c -o first2.out
+./first2.out
+nano first.c
+gcc first.c -o first2.out
+./first2.out
+cat first.c
+gcc -E
+gcc -E second.c
+gcc -E first.c
+gcc -E first.c > first.i
+cat first.i
+gcc first.c -o second_from_c.out
+gcc first.c -o second_from_i.out
+gcc -S first.c 
+ls -lt
+cat first.s
+gcc first.s -o second_from_s.out
+gcc -c first.c
+ls -lt
+gcc -Wall -save-temps first.c
+ls -lt
+cd
+ls -lt
+cd RTR105/
+ls -lt
+cd
+ls -lt
+cd RTR105/
+nano .gitignore
+ls -lt
+history -a 
