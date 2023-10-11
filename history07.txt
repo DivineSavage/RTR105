@@ -1,0 +1,199 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/DivineSavage/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mkdir Class_07
+    7  cd Class_0
+    8  cd Class_07
+    9  cd .
+   10  cd
+   11  cd RTR105/
+   12  ls -lt
+   13  cd Class_06
+   14  ls -lt
+   15  cd
+   16  cd RTR105/
+   17  cd Class_07
+   18  nano variable.c
+   19  gcc variable.c
+   20  nano variable.c 
+   21  gcc variable.c
+   22  nano variable.c 
+   23  gcc variable.c
+   24  ls -lt
+   25  nano variable.c 
+   26  gcc variable.c
+   27  ls -lt
+   28  ./a.out
+   29  nano variable.c 
+   30  gcc variable.c 
+   31  ./a.out
+   32  nano variable.c 
+   33  nano uzd.c
+   34  gcc uzd.c 
+   35  varibale.c
+   36  nano variable.c 
+   37  nano uzd.c
+   38  nano variable.c 
+   39  gcc uzd.c 
+   40  nano variable.c 
+   41  nano uzd.c
+   42  gcc uzd.c 
+   43  nano uzd.c
+   44  gcc uzd.c 
+   45  nano variable.c 
+   46  nano uzd.c
+   47  gcc uzd.c 
+   48  nano variable.c 
+   49  gcc uzd.c 
+   50  nano uzd.c
+   51  gcc uzd.c 
+   52  nano uzd.c
+   53  gcc uzd.c 
+   54  nano uzd.c
+   55  gcc uzd.c 
+   56  ./a.out
+   57  gcc uzd.c -o uzd.out
+   58  ls -lt
+   59  nano uzd.c
+   60  gcc uzd.c -o uzd.out
+   61  nano uzd.c
+   62  gcc uzd.c -o uzd.out
+   63  ./uzd.out
+   64  nano uzd.c
+   65  gcc uzd.c -o uzd.out
+   66  nano uzd.c
+   67  gcc uzd.c -o uzd.out
+   68  nano uzd.c
+   69  gcc uzd.c -o uzd.out
+   70  ./uzd.out
+   71  nano uzd.c
+   72  gcc uzd.c -o uzd.out
+   73  ./uzd.out
+   74  nano uzd.c
+   75  gcc uzd.c -o uzd.out
+   76  nano uzd.c
+   77  gcc uzd.c -o uzd.out
+   78  ./uzd.out
+   79  nano uzd.c
+   80  gcc uzd.c -o uzd.out
+   81  nano uzd.c
+   82  gcc uzd.c -o uzd.out
+   83  nano uzd.c
+   84  gcc uzd.c -o uzd.out
+   85  ./uzd.out
+   86  nano uzd.c
+   87  ls -lt
+   88  cd
+   89  ls -lt
+   90  cd RTR105/
+   91  ls -lt
+   92  nano git-upload 
+   93  ./git-upload 
+   94  nano uzd2.c
+   95  gcc uzd2.c -o uzd2.out
+   96  nano uzd2.c
+   97  gcc uzd2.c -o uzd2.out
+   98  nano uzd2.c
+   99  gcc uzd2.c -o uzd2.out
+  100  ./uzd2.out
+  101  nano uzd2.c
+  102  gcc uzd2.c -o uzd2.out
+  103  nano uzd2.c
+  104  gcc uzd2.c -o uzd2.out
+  105  ./uzd2.out
+  106  nano uzd2.c
+  107  gcc uzd2.c -o uzd2.out
+  108  ./uzd2.out
+  109  nano uzd2.c
+  110  jobs
+  111  nano uzd2.c
+  112  jobs
+  113  nano uzd2.c
+  114  fg
+  115  fg uzd2.c
+  116  fg nano uzd2.c
+  117  fg
+  118  gcc uzd.c -o uzd2.out
+  119  gcc uzd2.c -o uzd2.out
+  120  nano uzd2.c
+  121  gcc uzd2.c -o uzd2.out
+  122  ./uzd2.out
+  123  nano uzd2.c
+  124  gcc uzd2.c -o uzd2.out
+  125  nano uzd2.c
+  126  gcc uzd2.c -o uzd2.out
+  127  nano uzd2.c
+  128  gcc uzd2.c -o uzd2.out
+  129  nano uzd2.c
+  130  gcc uzd2.c -o uzd2.out
+  131  ./uzd2.out
+  132  nano uzd2.c
+  133  gcc uzd2.c -o uzd2.out
+  134  nano uzd2.c
+  135  gcc uzd2.c -o uzd2.out
+  136  ./uzd2.out
+  137  nano uzd2.c
+  138  gcc uzd2.c -o uzd2.out
+  139  ./uzd2.out
+  140  nano uzd2.c
+  141  gcc uzd2.c -o uzd2.out
+  142  ./uzd2.out
+  143  nano uzd2.c
+  144  gcc uzd2.c -o uzd2.out
+  145  ./uzd2.out
+  146  nano uzd2.c
+  147  ./uzd2.out
+  148  nano uzd2.c
+  149  gcc uzd2.c -o uzd2.out
+  150  ./uzd2.out
+  151  nano uzd2.c
+  152  gcc uzd2.c -o uzd2.out
+  153  ./uzd2.out
+  154  nano uzd2.c
+  155  gcc uzd2.c -o uzd2.out
+  156  nano uzd2.c
+  157  gcc uzd2.c -o uzd2.out
+  158  ./uzd2.out
+  159  nano uzd2.c
+  160  gcc uzd2.c -o uzd2.out
+  161  ./uzd2.out
+  162  nano uzd2.c
+  163  gcc uzd2.c -o uzd2.out
+  164  nano uzd2.c
+  165  gcc uzd2.c -o uzd2.out
+  166  ./uzd2.out
+  167  nano uzd2.c
+  168  gcc uzd2.c -o uzd2.out
+  169  ./uzd2.out
+  170  nano uzd2.c
+  171  gcc uzd2.c -o uzd2.out
+  172  ./uzd2.out
+  173  nano uzd2.c
+  174  ./uzd2.out
+  175  nano uzd2.c
+  176  gcc uzd2.c -o uzd2.out
+  177  ./uzd2.out
+  178  nano uzd2.c
+  179  gcc uzd2.c -o uzd2.out
+  180  ./uzd2.out
+  181  nano uzd2.c
+  182  gcc uzd2.c -o uzd2.out
+  183  ./uzd2.out
+  184  ./git-upload 
+  185  help init
+  186  man init
+  187  cd Class_07
+  188  nano uzd3.c
+  189  cd
+  190  cd RTR105/
+  191  ./git-upload 
+  192  cd Class_07
+  193  nano uzd.3
+  194  nano uzd3.c
+  195  cd ./
+  196  cd
+  197  cd RTR105/
+  198  ./git-upload 
+  199  history > history07.txt
