@@ -1,0 +1,70 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/DivineSavage/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mkdir Class_08
+    7  cd Class_0
+    8  cd Class_08
+    9  cd ..
+   10  cd Class_07
+   11  ls -lt
+   12  nano uzd3.c
+   13  cd ..
+   14  cd Class_08
+   15  nano while_char.c
+   16  gcc while_char.c
+   17  ./a.out
+   18  ls -lt
+   19  ./a.out
+   20  nano while_char.c
+   21  gcc while_char.c
+   22  ./a.out
+   23  nano while_char.c
+   24  gcc while_char.c
+   25  ./a.out
+   26  nano while_char.c
+   27  gcc while_char.c
+   28  ./a.out
+   29  nano while_char.c
+   30  gcc while_char.c
+   31  ./a.out
+   32  nano while_char.c
+   33  gcc while_char.c
+   34  nano while_char.c
+   35  gcc while_char.c
+   36  ./a.out
+   37  nano while_char.c
+   38  gcc while_char.c
+   39  ./a.out
+   40  nano while_char.c
+   41  copy while_char.c while_random.c
+   42* 
+   43  nano while_char.c
+   44  gcc while_char.c
+   45  nano while_char.c
+   46  gcc while_char.c
+   47  nano while_char.c
+   48  gcc while_char.c
+   49  ./a.out
+   50  nano while_char.c
+   51  gcc while_char.c
+   52  ./a.out
+   53  nano while_char.c
+   54  ./a.out
+   55  nano while_char.c
+   56  ./a.out
+   57  nano while_char.c
+   58  ./a.out
+   59  gcc while_char.c
+   60  ./a.out
+   61  nano user_func.c
+   62  cp while_char.c user_func.c 
+   63  nano user_func.c 
+   64  cd
+   65  cd r
+   66  cd R
+   67  cd RTR105/
+   68  ls -lt
+   69  ./git-upload
+   70  history > history.txt
