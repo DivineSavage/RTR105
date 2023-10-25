@@ -1,0 +1,120 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/DivineSavage/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mkdir Class_09
+    7  cd Class_09
+    8  lol
+    9  nano foo.h
+   10  nano foo.c
+   11  nano main.c
+   12  gcc -Wall -c foo.c
+   13  gcc -Wall -c main.c
+   14  gcc -o testprog foo.o main.o
+   15  ls -lt
+   16  ./testprog
+   17  foo.h
+   18  nano foo.h
+   19  nano foo.c
+   20  nano foo.h
+   21  nano foo.c
+   22  nano main.c
+   23  fg
+   24  nano foo.c
+   25  nano foo.h
+   26  nano main.c
+   27  / masīvi - _secīgi_ novietotas vērtības atmiņa izgūstāmas ar viena
+   28  // identifikatora palīdzību: a[0], a[1], a[2]
+   29  // alternatīva - a0, a1, a2 - kas nav ērti? - nav iespējama algoritmizācija, jo
+   30  // tikšanai pie vērtībām ir manuāli jamaina mainīga vārds, bet masīva gadījumā
+   31  // jāmaina indekss, tātad, i=0; a[i]; i=1; a[i]; i=2; a[i];
+   32  // NB! masīva pirmā elementa indekss ir - 0
+   33  // NB! masīvam arī ir adrese (masīva vārds ir norāde) - tā ir 0. elementa adrese
+   34  #include<stdio.h>
+   35  int main()
+   36  nano array.c
+   37  gcc -o array.c array.out
+   38  gcc array.c
+   39  nano array.c
+   40  gcc array.c
+   41  ls -lt
+   42  ./a.out
+   43  {
+   44  nano strarray
+   45  nano strarray.c
+   46  gcc strarray.c 
+   47  nano strarray.c
+   48  gcc strarray.c
+   49  nano strarray.c
+   50  gcc strarray.c
+   51  ./a.out
+   52  gcc strarray.c
+   53  nano strarray.c
+   54  gcc strarray.c
+   55  nano strarray.c
+   56  gcc strarray.c
+   57  ./a.out
+   58  nano strarray.c
+   59  gcc strarray.c
+   60  nano strarray.c
+   61  gcc strarray.c
+   62  ./a.out
+   63  nano strarray.c
+   64  gcc strarray.c
+   65  ./a.out
+   66  nano strarray.c
+   67  gcc strarray.c
+   68  nano strarray.c
+   69  gcc strarray.c
+   70  ./a.out
+   71  nano strarray.c
+   72  gcc strarray.c
+   73  ./a.out
+   74  nano strarray.c
+   75  gcc strarray.c
+   76  ./a.out
+   77  nano strarray.c
+   78  gcc strarray.c
+   79  ./a.out
+   80  nano strarray.c
+   81  gcc strarray.c
+   82  ./a.out 
+   83  nano strarray.c
+   84  gcc strarray.c
+   85  ./a.out 
+   86  nano strarray.c
+   87  gcc strarray.c
+   88  ./a.out 
+   89  nano strarray.c
+   90  ./a.out 
+   91  nano strarray.c
+   92  gcc strarray.c
+   93  ./a.out 
+   94  nano strarray.c
+   95  gcc strarray.c
+   96  ./a.out 
+   97  nano strarray.c
+   98  gcc strarray.c
+   99  ./a.out 
+  100  nano strarray.c
+  101  gcc strarray.c
+  102  nano strarray.c
+  103  gcc strarray.c
+  104  nano strarray.c
+  105  gcc strarray.c
+  106  ./a.out 
+  107  nano strarray.c
+  108  gcc strarray.c
+  109  ./a.out 
+  110  nano strarray.c
+  111  gcc strarray.c
+  112  ./a.out 
+  113  nano strarray.c
+  114  gcc strarray.c
+  115  nano strarray.c
+  116  ./a.out 
+  117  nano strarray.c
+  118  cd
+  119  cd RTR105/
+  120  history > history09.txt
