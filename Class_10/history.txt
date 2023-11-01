@@ -1,0 +1,55 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/DivineSavage/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mkdir Class_10
+    7  cd Class_10
+    8  nano filepiem.c
+    9  gcc filepiem.c 
+   10  ls -lt
+   11  ./a.out
+   12  ls -lt
+   13  cat myfile.txt 
+   14  hexdump -C myfile.txt 
+   15  nano fileclose.c
+   16  gcc fileclose.c -o b.out
+   17  ls -lt
+   18  ./b.out
+   19  ls -lt
+   20  nano fileprint.c
+   21  gcc fileprint.c -o c.out
+   22  nano fileprint.c
+   23  gcc fileprint.c -o c.out
+   24  nano fileprint.c
+   25  gcc fileprint.c -o c.out
+   26  nano fileprint.c
+   27  nano fileclose.c
+   28  ./b.out
+   29  echo $?
+   30  nano fileprint.c
+   31  gcc fileprint.c -o c.out
+   32  nano fileprint.c
+   33  gcc fileprint.c -o c.out
+   34  ./c.out
+   35  ls -lt
+   36  cat myfile.txt 
+   37  nano fileprint.c
+   38  nano fwritex.c
+   39  gcc fwritex.c -o d.out
+   40  ./d.out
+   41  ls -lt
+   42  hexdump -C myfile.bin 
+   43  nano freadexp.c
+   44  gcc freadexp.c -o e.out
+   45  nano freadexp.c
+   46  gcc freadexp.c -o e.out
+   47  ./e.out
+   48  echo $?
+   49  nano fwritex.c 
+   50  ls -lt
+   51  nano fwritex.c 
+   52  nano freadexp.c
+   53  nano fileprint.c 
+   54  nano fwritex.c 
+   55  history > history.txt
