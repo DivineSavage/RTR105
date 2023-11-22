@@ -1,0 +1,46 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  git clone https://github.com/DivineSavage/RTR105
+    4  ls -lt
+    5  cd RTR105/
+    6  mkdir Class_18
+    7  cd Class_18
+    8  nano bessel.c
+    9  chmod 743 bessel.c 
+   10  gcc bessel.c -o bessel.out
+   11  nano bessel.c
+   12  gcc bessel.c -o bessel.out
+   13  nano bessel.c
+   14  gcc bessel.c -o bessel.out -lm
+   15  ./bessel.out
+   16  nano bessel.c
+   17  nano bessel2.c
+   18  chmod 743 bessel2.c 
+   19  gcc bessel2.c -o bessel2.out -lm
+   20  nano bessel2.c
+   21  gcc bessel2.c -o bessel2.out -lm
+   22  nano bessel2.c
+   23  gcc bessel2.c -o bessel2.out -lm
+   24  ./bessel2.out
+   25  nano bessel.c
+   26  ./bessel.out
+   27  nano bessel.c
+   28  gcc bessel3.c
+   29  nano bessel.c
+   30  nano bessel3.c
+   31  gcc bessel3.c
+   32  gcc bessel3.c -o bessel3.out -lm
+   33  ./bessel3.c
+   34  chmod 743 bessel3.c 
+   35  gcc bessel3.c -o bessel3.out -lm
+   36  ./bessel3.c
+   37  nano bessel3.c
+   38  ./bessel3.c
+   39  nano bessel3.c
+   40  gcc bessel3.c -o bessel3.out -lm
+   41  ./bessel3.c
+   42  nano bessel3.c
+   43  gcc bessel3.c -o bessel3.out -lm
+   44  ./bessel3.c
+   45  ./bessel3.out
+   46  history > history18.txt
