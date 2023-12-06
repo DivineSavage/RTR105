@@ -5,9 +5,16 @@
 
 int main()
 {
- float a = 0.01, b = 1.5*M_PI, x, delta_x=1.e-3, funkca, funkcb,funkcx,A;
- printf("Jo vecit ievadi skaitli, A vertibu bessela funkcijai = A\n");
+ float a = 0.01, b = 0*M_PI, x, delta_x=1.e-3, funkca, funkcb,funkcx,A;
+ printf("Jo vecit ievadi skaitli, C vertibu bessela funkcijai = C\n");
  scanf("%f",&A);
+ printf("Jo vecit ievadi skaitli, a vertibu bessela funkcijas robezam = a\n");
+ scanf("%f",&a);
+ printf("Jo vecit ievadi skaitli, b vertibu bessela funkcijas robezam = b\n");
+ scanf("%f",&b);
+ printf("Jo vecit ievadi precizitati, delta x vertibu bessela funkcijai = dx\n");
+ scanf("%f",&delta_x);
+
  int k = 0;
  funkca = j1(a-A);
  funkcb = j1(b-A);
@@ -18,8 +25,8 @@ int main()
   printf("saknju nav (vai taja ir paru saknju skaits)\n");
   return 1;
  }
- printf("		bes(%7.3f)=%7.3f\t\t\t\t",a,j1(a-A));
- printf("sin(%7.3f)=%7.3f\n",b,j1(b-A));
+ printf("	    bes(%7.3f)=%7.3f\t\t\t\t",a,j1(a-A));
+ printf("bes(%7.3f)=%7.3f\n",b,j1(b-A));
  while((b-a)>delta_x)
  {
  k++;
@@ -33,7 +40,7 @@ int main()
  printf("j1(%7.3f) = %7.3f\n",b,j1(b-A));
  }
 
-printf("Sakne atrodas pie x=%.3f, jo j1(x) ir %.3f\n",x,j1(x-A));
+printf("Sakne atrodas pie x=%.3f, jo j1(x) ir %.3f\n",x,j1(x));
 return 0;
 }
 
