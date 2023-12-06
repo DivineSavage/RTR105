@@ -1,17 +1,22 @@
 #include <stdio.h>
 #include <math.h>
 
-float deriv(d,d2)
+struct Deriv
 {
+ float d1;
+ float d2;
+};
 
- while(d2<b)
- {
-  d = j1(x+delta_x)-j1(x))/delta_x;
-  d += delta_x;
-  d2 =j1(d+delta_x)-j1(d))/delta_x;
-  d2 += delta_x;
-  return d,d2;
- }
+struct Deriv derivative(float delta_x, float x)
+{
+ struct Deriv currentresults;
+// while(d2<b)
+
+  currentresults.d1 = j1((x+delta_x)-j1(x))/delta_x;
+  currentresults.d1 += delta_x;
+  currentresults.d2 =j1((currentresults.d1+delta_x)-j1(currentresults.d1))/delta_x;
+  currentresults.d2 += delta_x;
+  return currentresults;
 }
 
 
@@ -22,15 +27,14 @@ void main()
  float a = 0, b=0,x,delta_x=0;
  x = a;
  printf("Ievadiet lūdzu apakšējo robežu a\n");
- scanf("%10.2f",&a);
+ scanf("%f",&a);
  printf("Ievadiet lūdzu augšējo robežu b\n");
- scanf("%10.2f",&b);
+ scanf("%f",&b);
  printf("Ievadiet lūdzu vēlamo precizitāti dx\n");
- scanf("%10.2f",&delta_x);
- deriv();
-
+ scanf("%f",&delta_x);
  while(x<b)
  {
-  printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\n",x,j1(x),d,d2);
+  struct Deriv drawresults = derivative( delta_x, x );
+  printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\n",x,j1(x),drawresults.d1,drawresults.d2);
  }
 }
