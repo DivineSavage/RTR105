@@ -1,65 +1,74 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
 int i = 1;
-long long int sk = 0;
-int st = 0;
-
+char sk = 0;
+char of = 0;
+char st = 3;
+char fa = 0;
 printf("Ievadat decimalu skaitli,\n");
-scanf("%lld",&sk);
+scanf("%hhd",&sk);
 
-printf("Izvēlaties datu tipu int, char vai long long ievadat : 0, 1, 2");
-scanf("%d",&st);
+printf("Izvēlaties datu tipu char, int vai long long ievadat : 0, 1, 2");
+scanf("%hhd",&st);
 
-if(st == 0)
+ if(st == 0)
  {
-  if(sk <= 12)
+
+  while(i <= sk)
   {
-   while (i<=sk)
+
+    of = fa;
+    fa = fa * i;
+    if (fa / i != of)
    {
-    sk = sk*i;
+    printf("Jūsu izvēlētais skaitlis ir palielu datu tipam\n");
+    exit(1);
+   }
+   else;
+   {
     i++;
    }
-  printf("%d",sk);
   }
-  else
+ }
+ if(st == 2)
+ {
+ while(i <= sk)
   {
-   printf("Dota skaitla faktorials ir palielu izveletajam datu tipam\n");
+   long long of = (long long) fa;
+   long long fa = (long long) fa * i;
+   if (fa / i != of)
+   {
+    printf("Jūsu izvēlētais skaitlis ir palielu datu tipam\n");
+    exit(1);
+   }
+   else;
+   {
+   i++;
+   }
   }
  }
 
-if(st == 1)
+ if(st == 1)
  {
-  if(sk <= 5)
+ while(i <= sk)
   {
-   while(i<=sk)
+   int of = (int) fa;
+   int fa = (int) fa * i;
+   if (fa / i != of)
    {
-    sk = sk*i;
+    printf("Jūsu izvēlētais skaitlis ir palielu datu tipam\n");
+    exit(1);
+   }
+   else;
+   {
     i++;
    }
-  printf("%c",sk);
-  }
-  else
-  {
-   printf("Dota skaitla faktorials ir palielu izveletajam datu tipam\n");
   }
  }
-if(st == 2)
- {
-  if(sk <= 20)
-  {
-   while(i<=sk)
-   {
-    sk = sk*i;
-    i++;
-   }
-  printf("%lld",sk);
-  }
-  else
-  {
-   printf("Dota skaitla faktorials ir palielu izveletajam datu tipam\n");
-  }
- }
+
+printf("Faktorials ir = %d\n",fa);
 return 0;
 }
